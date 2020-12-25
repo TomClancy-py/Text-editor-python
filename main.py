@@ -36,10 +36,11 @@ if (user_input == 'x'):
         
 
 elif user_input in ("a","w"):
+    file_name = input("Enter the file name:  ")
     print("now you can type anything and when you done press 'enter' on the keyboard\n\n")
 
     user_data = input()
-    file_name = input("Enter the file name:  ")
+    
 
     if(user_input == 'a'):
         file = open(file_name,"a")
